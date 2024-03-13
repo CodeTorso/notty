@@ -20,3 +20,4 @@ export async function create(formData: FormData): Promise<void> {
 
   revalidatePath('/notes')
 }
+
